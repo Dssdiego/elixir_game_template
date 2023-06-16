@@ -1,3 +1,3 @@
-# Alchymia
+# Feather Game Template
 
-Alchymia game made with the Feather Engine
+Template for creating games with the Feather Engine
