@@ -1,0 +1,14 @@
+world: 
+  - name: CardTest
+    transform:
+      position: [ 0.0, 0.0, 0.0 ]
+      scale: [ 1.0, 1.0, 1.0 ]
+      rotation: [ 0.0, 0.0, 0.0 ]
+      offset: [ 0.0, 0.0, 0.0 ]
+    renderer:
+      color: white
+      pipeline: sprite
+      texture: sprites
+      tile: 0
+      visible: On
+ 
