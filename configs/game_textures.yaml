@@ -1,6 +1,6 @@
 textures:
   - name: game_sprites
-    path: assets/textures/atlas_sprites.png
-    tile_w: 40
-    tile_h: 60
+    path: assets/textures/atlas.png
+    tile_w: 32
+    tile_h: 32
     sampler: pixel_art
