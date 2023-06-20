@@ -9,7 +9,7 @@
 #include "../../src/engine/common/Assets.h"
 #include "../../src/engine/rendering/Camera.h"
 #include "../../src/engine/components/Transform.h"
-#include "../../src/engine/components/SpriteRenderer.h"
+#include "../../src/engine/components/Sprite.h"
 
 using namespace Feather;
 
@@ -23,7 +23,7 @@ void MyGame::Init()
 
 	auto bird = ECS::Create("Bird");
 
-	SpriteRenderer sprComp =
+	Sprite sprComp =
 	{
 		Color::White,
 		"sprite",
