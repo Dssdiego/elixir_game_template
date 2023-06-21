@@ -12,7 +12,7 @@
 #include "../../src/engine/components/Sprite.h"
 #include "../../src/engine/components/AnimatedSprite.h"
 
-using namespace Feather;
+using namespace Elixir;
 
 void MyGame::Init()
 {

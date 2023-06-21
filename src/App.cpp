@@ -7,7 +7,7 @@
 #include "../src/engine/common/Config.h"
 #include "MyGame.h"
 
-using namespace Feather;
+using namespace Elixir;
 
 int main()
 {
