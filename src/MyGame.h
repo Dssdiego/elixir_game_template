@@ -10,7 +10,7 @@
 #include <glm/glm.hpp>
 #include <iostream>
 
-namespace Feather
+namespace Elixir
 {
 	class MyGame : public Game
 	{

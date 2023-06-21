@@ -1,3 +1,3 @@
-# Feather Game Template
+# Elixir Game Template
 
-Template for creating games with the Feather Engine
+Template for creating games with the Elixir Game Engine
