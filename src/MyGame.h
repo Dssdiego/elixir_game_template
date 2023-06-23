@@ -10,7 +10,9 @@
 #include <glm/glm.hpp>
 #include <iostream>
 
-namespace Elixir
+using namespace Elixir;
+
+namespace ElixirGame
 {
 	class MyGame : public Game
 	{

@@ -7,10 +7,13 @@
 
 #include <entt/entt.hpp>
 
-class GameSystems
+namespace ElixirGame
 {
-public:
-	static void Update(entt::registry& registry);
-};
+	class GameSystems
+	{
+	public:
+		static void Update(entt::registry& registry);
+	};
+}
 
 #endif //GAME_SYSTEMS_H

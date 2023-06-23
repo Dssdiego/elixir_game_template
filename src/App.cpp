@@ -8,6 +8,7 @@
 #include "MyGame.h"
 
 using namespace Elixir;
+using namespace ElixirGame;
 
 int main()
 {

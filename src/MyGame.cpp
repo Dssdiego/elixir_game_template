@@ -12,7 +12,7 @@
 #include "../../src/engine/components/Sprite.h"
 #include "../../src/engine/components/AnimatedSprite.h"
 
-using namespace Elixir;
+using namespace ElixirGame;
 
 void MyGame::Init()
 {
@@ -80,4 +80,3 @@ void MyGame::Shutdown()
 {
 	Logger::Info("My game shutdown");
 }
-
