@@ -76,7 +76,9 @@ void MyGame::Init()
 	{
 		"Elixir Game Engine",
 		0.25f,
-		true
+		true,
+		ETextAlignment::CENTER,
+		glm::vec3{0.f}
 	};
 	ECS::AddComponent(engineNameText, textComp);
 }
