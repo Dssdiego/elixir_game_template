@@ -11,6 +11,7 @@
 #include "../../src/engine/components/Transform.h"
 #include "../../src/engine/components/Sprite.h"
 #include "../../src/engine/components/AnimatedSprite.h"
+#include "../../src/engine/components/Text.h"
 
 using namespace ElixirGame;
 
@@ -69,6 +70,15 @@ void MyGame::Init()
 	};
 	ECS::AddComponent(explosion, Transform{});
 	ECS::AddComponent(explosion, explosionAnimSpr);
+
+	auto engineNameText = ECS::Create("Text");
+	Text textComp =
+	{
+		"Elixir Game Engine",
+		0.25f,
+		true
+	};
+	ECS::AddComponent(engineNameText, textComp);
 }
 
 void MyGame::Update()
