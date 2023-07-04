@@ -31,7 +31,7 @@ void MyGame::Init()
 		"game_sprites",
 		0,
 		5,
-		0.1f,
+		10.f,
 		0.f,
 		1,
 		true
@@ -47,7 +47,7 @@ void MyGame::Init()
 		"game_sprites",
 		10,
 		12,
-		0.1f,
+		10.f,
 		0.f,
 		10,
 		true
@@ -63,7 +63,7 @@ void MyGame::Init()
 		"game_sprites",
 		16,
 		21,
-		0.1f,
+		10.f,
 		0.f,
 		16,
 		true
